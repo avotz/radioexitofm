@@ -1,0 +1,32 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package radioexitofm
+ */
+
+?>
+
+	<div class="current-song">
+      <div class="current-song-container">
+       <?php dynamic_sidebar('sidebar-current-song'); ?>
+	    <div class="copyright">
+			<a href="https://avotz.com"><i class="icon-avotz"></i></a>
+		</div>
+      </div>
+    </div>
+
+	<div id="contact-popup" class="contact-popup white-popup mfp-hide mfp-with-anim">
+		<h2>Contáctenos</h2>
+		<?php echo do_shortcode('[contact-form-7 id="8" title="Contact form"]'); ?>               
+	    
+	</div>
+	
+<?php wp_footer(); ?>
+
+</body>
+</html>
