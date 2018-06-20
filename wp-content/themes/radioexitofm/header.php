@@ -34,9 +34,9 @@
 				  <a href="<?php echo esc_url(home_url('/')); ?>" title="Inicio" class="icon-ondabrava">Inicio</a>
                   <a href="<?php echo esc_url(home_url('/blog')); ?>" title="Blog" class="icon-ondabrava">Blog</a>
 				   <!-- <a href="https://mytuner-radio.com/radio/beat-life-panama-449724" title="my tuner radio" class="icon-tuner-radio"><img src="<?php echo get_template_directory_uri(); ?>/img/my-tunerradio.png" alt="my-tuner-radio"></a> -->
-				  <a href="https://www.facebook.com/pg/ExitoFMCostaRica"><i class="fa fa-facebook"></i></a>
-                  <!-- <a href="https://twitter.com/beatpanama"><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/beatlifepanama"><i class="fa fa-instagram"></i></a> -->
+				  <a href="https://www.facebook.com/pg/ExitoFMCostaRica" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.youtube.com/channel/UCOEsHv_i53WwZFm-MGIZjVw" target="_blank"><i class="fa fa-youtube"></i></a>
+                  <!-- <a href="https://www.instagram.com/beatlifepanama"><i class="fa fa-instagram"></i></a>  -->
                   <a href="#contact-popup" class="contact-popup-link"><i class="fa fa-envelope-o"></i><span class="text">Contact Us</span></a>
                 </div>
                 <!-- <div class="header-btn-menu">
